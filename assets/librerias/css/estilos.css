@@ -1,0 +1,148 @@
+:root {
+    --background-color: #fff159;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Header*/
+.header-mercadolibre {
+    background-color: var(--background-color);
+}
+.custom-logo-link img {
+    width: 134px;
+}
+.search-bar {
+    height: 40px;
+    position: relative;
+}
+.search-bar h5 {
+    display: none;
+}
+.search-bar form .form-control {
+    position: absolute;
+    color: #333;
+    width: 100%;
+    height: 40px;
+    border-radius: 0%;
+    border: none;
+}
+.search-bar form button {
+    position: absolute;
+    background-color: white;
+    right: 0%;
+    height: 40px;
+    border: none;
+    border-left: solid 1px rgba(51,51,51,.2);
+}
+nav .menu .nav-menu {
+    padding: 0%;
+    margin: 0%;
+    gap: 20px;
+}
+nav .menu .nav-menu li a {
+    color: rgba(51,51,51,.6);
+    transition: .5s;
+    font-size: 14px;
+}
+nav .menu .nav-menu li a:hover {
+    color: black;
+}
+.img-disney {
+    width: 350px;
+    cursor: pointer;
+}
+/*Header*/
+
+
+/*Main*/
+.banner img {
+    cursor: pointer;
+}
+/*Main*/
+
+
+/*Footer*/
+.footer-background {
+    background-color: #fff;
+}
+.button-footer {
+    border: 1px solid #fff;
+    background-color: #fff;
+    height: 32px;
+    padding: 0 20px;
+    border-radius: 5px 5px 0 0;
+}
+.background-footer-interior .card-body {
+    background-color: #f7f7f7;
+    border: none;
+}
+.ul-footer-principal .col-12 {
+    width: 100%;
+}
+.menu-nav-footer-uno-container ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.menu-nav-footer-uno-container ul li a {
+    text-decoration: none;
+    display: inline;
+    font-size: 13px;
+    color: #333;
+}
+.info-footer {
+    font-size: 12px;
+}
+.footer-interior h5 {
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+.footer-interior .col-lg-2 {
+    margin: 0%;
+    padding: 0%;
+}
+.footer-interior #nav_menu-3 {
+    width: 100%;
+}
+.footer-interior #nav_menu-4 {
+    width: 100%;
+}
+.footer-interior #nav_menu-5 {
+    width: 100%;
+}
+.footer-interior #nav_menu-6 {
+    width: 100%;
+}
+.footer-interior #nav_menu-7 {
+    width: 100%;
+}
+.footer-interior #nav_menu-8 {
+    width: 100%;
+}
+/* .footer-interior .menu-footer-interior-uno-container {
+    width: 100%;
+    border: solid 1px black;
+} */
+.footer-interior div ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    width: 100%;
+    gap: 10px;
+}
+.footer-interior div ul a {
+    text-decoration: none;
+    color: #999;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.footer-interior div ul a:hover {
+    border-bottom: solid 1px #999;
+}
+/*Footer*/
